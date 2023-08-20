@@ -1,0 +1,617 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+.logo {
+    width: 300px;
+}
+
+.navigate-links a {
+    /* font-size: 16px !important; */
+    color: #F0F0F0 !important;
+    padding: 0px 10px !important;
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+
+.mynav {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+
+.slider-content {
+    position: relative;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.sliderContent-container {
+    /* backdrop-filter: blur(2px); */
+    position: absolute;
+    top: -60px;
+    left: 80px;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 600px;
+    color: #ffffff;
+}
+
+.content-boxtitle {
+    /* margin: auto 0px; */
+}
+
+.sliderContent-container h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 50px;
+}
+
+.sliderContent-container p {
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+
+.about-sec {
+    background-color: #1B1B1B;
+    color: #ffffff;
+    padding: 50px;
+}
+
+.aboutsec1 {
+    width: 90%;
+}
+
+.aboutsec1 h6 {
+    font-size: 1.4rem;
+    font-weight: 100 !important;
+}
+
+.aboutsec1 h3 {
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+.aboutsec2 {
+    width: 90%;
+}
+
+.aboutsec2 p {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.aboutsec2 button {
+    font-size: 1rem;
+    padding: 0.7rem 2rem;
+    background-color: #164216;
+    color: #ffffff;
+    border: none;
+    border-radius: 1.5rem;
+}
+
+
+.moreabout-sec {
+    background-image: url(images/vision-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
+    padding: 50px 0px;
+}
+
+.moreaboutsec1,
+.moreaboutsec2 {
+    width: 80%;
+    margin: auto;
+}
+
+.moreaboutsec1 h3,
+.moreaboutsec2 h3 {
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.moreaboutsec1 p,
+.moreaboutsec2 p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.moreaboutsec1 button,
+.moreaboutsec2 button {
+    font-size: 1.2rem;
+    background: transparent;
+    border: none;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.moreaboutsec1 span,
+.moreaboutsec2 span {
+    padding: 11px 18px;
+    background-color: #ffffff;
+    color: #332f2f;
+    border-radius: 2rem;
+    margin-right: 10px;
+}
+
+
+
+/* card section */
+.card-scroll {
+    visibility: hidden;
+}
+
+.cardContainer {
+    background-color: #191919;
+    padding: 5rem 0;
+}
+
+.cardSection-heading h6 {
+    font-size: 1rem;
+    color: #f4f4f4;
+    font-weight: 500;
+    text-align: center;
+}
+
+.cardSection-heading h4 {
+    font-size: 2rem;
+    color: #f4f4f4;
+    font-weight: bold;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.cardSection {
+    margin: 30px 0;
+}
+
+.cardBody {
+    position: relative;
+    background: #fff;
+    border-radius: 20px;
+    width: 350px;
+    height: 460px;
+    background: #191919;
+    border: 1px solid #2a2826;
+
+}
+
+.cardImage img {
+    height: 100%;
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+.cardDetails {
+    margin: 30px 30px;
+}
+
+.cardDetails h2 {
+    color: #f4f4f4;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.cardDetails p {
+    color: #777;
+    font-size: 1rem;
+}
+
+.card-btn {
+    color: #f4f4f4;
+    font-weight: 600;
+    font-size: 1rem;
+    border-radius: 20px;
+    padding: 8px 40px;
+    border: none;
+    background-color: #164216;
+}
+
+.event-date {
+    position: absolute;
+    top: 43%;
+    color: #f4f4f4;
+    background-color: #164216;
+    padding: 8px 8px;
+
+    border-radius: 8px;
+    width: 70%;
+}
+
+.event-date h6 {
+    font-size: 1rem;
+    margin: auto;
+}
+
+/* gallery */
+
+
+.gallery {
+    background-color: #191919;
+    padding: 50px 0;
+}
+.gallery-head {
+    margin-bottom: 1rem;
+}
+.gallery-head h6 {
+    color: #f6f6f6;
+    font-size: 0.9rem;
+}
+
+.gallery-head h4 {
+    color: #f6f6f6;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.gallery-Imgsec {
+    margin-top: 50px;
+}
+
+.gallery-img {
+    /* width: 250px;
+    height: 250px; */
+    margin-bottom: 20px !important;
+    border-radius: 8px !important;
+}
+
+.gallery-img img {
+    border: none;
+    background: none;
+    border-radius: 12px !important;
+    padding: 0 !important;
+    /* width: 100%; */
+}
+
+
+
+/* --------------------------modal---------------  */
+
+.galleryModal {
+    margin: 0px auto;
+}
+
+.custom-close-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.custom-close-button {
+    background-color: #f6f6f6;
+}
+
+
+
+footer {
+    background-image: url(images/footer-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #f4f4f4;
+    padding: 2rem 0;
+    border-top: 1px solid #524e4e;
+    border-bottom: 1px solid #524e4e;
+}
+
+footer .gene-info {
+    padding-right: 30px;
+    padding-top: 40px;
+}
+
+footer h3 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+footer p {
+    font-size: 0.9rem;
+}
+
+footer .contact-info {
+    background: #1B1B1B;
+    height: 400px;
+    /* width: 500px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px 20px;
+    border-radius: 1rem;
+}
+
+
+.contact-info span h4 {
+    font-size: 1.4rem;
+}
+
+.contact-info span h5 {
+    font-size: 1rem;
+}
+
+.contact-info span h6 {
+    font-size: 0.9rem;
+    font-weight: normal;
+}
+
+.contact-info span h6 i {
+    margin-right: 5px;
+}
+
+footer span {}
+
+footer ul {
+    padding-left: 0;
+}
+
+footer li {
+    list-style-type: none;
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+    font-weight: normal;
+}
+
+footer li i {
+    margin-right: 5px;
+}
+
+.footr-links {
+    /* margin-left: 2rem; */
+    padding-left: 30px;
+    padding-top: 40px;
+    /* background-color: aqua; */
+}
+
+.bottom-bar {
+    background-color: #111111;
+    color: #777777;
+    padding: 16px 0;
+}
+
+.bottom-bar div h5 {
+    font-size: 0.9rem;
+    text-align: center;
+    font-weight: normal;
+}
+
+.social-links {
+    display: flex;
+}
+
+.social-links div {
+    margin-right: 10px;
+    border: 1px solid #ffffff;
+    width: 2.5rem !important;
+    height: 2.5rem !important;
+    border-radius: 50%;
+}
+
+.social-links div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-links div i {
+    margin: auto;
+}
+
+
+
+
+
+
+/* @media screen and (min-width: 992px){ */
+@media screen and (max-width: 1024px) {
+    .logo {
+        width: 300px;
+    }
+
+    .sliderContent-container {
+        width: 480px;
+    }
+
+    .sliderContent-container h3 {
+        font-size: 1.6rem;
+        font-weight: bold;
+        line-height: 40px;
+    }
+}
+
+
+/* @media screen and (min-width: 768px){ */
+@media screen and (max-width: 992px) {
+
+    .logo {
+        width: 300px;
+    }
+
+    .sliderContent-container {
+        width: 380px;
+    }
+
+    .sliderContent-container h3 {
+        font-size: 1.6rem;
+        font-weight: bold;
+        line-height: 40px;
+    }
+
+    .sliderContent-container {
+        /* backdrop-filter: blur(2px); */
+        position: absolute;
+        top: 10px;
+        left: 80px;
+        bottom: 0;
+        right: 0;
+    }
+
+}
+
+
+/* @media screen and (min-width: 576px){ */
+@media screen and (max-width: 768px) {
+
+    .logo {
+        width: 220px;
+    }
+
+    .sliderContent-container {
+        /* margin: auto 40px; */
+        width: 260px;
+        /* padding: 160px 40px 120px 0px; */
+        /* background-color: #164216; */
+    }
+
+    .sliderContent-container h3 {
+        font-size: 1rem;
+        font-weight: bold;
+        line-height: 30px;
+    }
+
+    .aboutsec1 h6 {
+        font-size: 1rem;
+        font-weight: 100 !important;
+    }
+
+    .aboutsec1 h3 {
+        font-size: 1.6rem;
+        font-weight: bold;
+    }
+
+    .aboutsec1,
+    .aboutsec2 {
+        width: 100%;
+    }
+
+    .aboutsec2 p {
+        font-size: 0.8rem;
+        /* font-weight: 300; */
+    }
+
+    .aboutsec2 button {
+        font-size: 0.8rem;
+        padding: 0.6rem 1.6rem;
+    }
+
+
+    .cardSection-heading h6 {
+        font-size: 1rem;
+    }
+
+    .cardSection-heading h4 {
+        font-size: 1.6rem;
+        margin: 30px 0;
+    }
+
+    .moreaboutsec1 {
+        margin-bottom: 60px;
+    }
+
+    .moreaboutsec1 h3,
+    .moreaboutsec2 h3 {
+        font-size: 1.4rem;
+    }
+
+    .moreaboutsec1 p,
+    .moreaboutsec2 p {
+        font-size: 0.9rem;
+    }
+
+    .moreaboutsec1 button,
+    .moreaboutsec2 button {
+        font-size: 1rem;
+    }
+
+
+    .moreaboutsec1 span,
+    .moreaboutsec2 span {
+        padding: 7px 14px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    .carousell-slide{
+        height: 300px !important;
+    }
+    .carousell-slide img{
+        /* height: 350px !important; */
+        height: 300px !important;
+    }
+    .logo{
+        width: 180px !important;
+    }
+    .sliderContent-container {
+        display: none;
+    }
+
+    .sliderContent-container h3 {
+        font-size: 1rem;
+        font-weight: bold;
+        line-height: 20px;
+    }
+
+    .cardDetails h2 {
+        /* color: #f4f4f4; */
+        font-size: 1.2rem;
+        /* font-weight: 600; */
+    }
+
+    .event-date h6 {
+        font-size: 0.9rem;
+    }
+    
+    .cardDetails p {
+        /* color: #777; */
+        font-size: 0.9rem;
+    }
+    .card-btn {
+        font-size: 0.9rem;
+        padding: 8px 30px;
+        font-weight: 400;
+    }
+    .aboutsec1 h6 {
+        font-size: 1rem;
+        font-weight: 100 !important;
+    }
+
+    .aboutsec1 h3 {
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+
+    .aboutsec1,
+    .aboutsec2 {
+        width: 100%;
+    }
+
+    .aboutsec2 p {
+        font-size: 0.8rem;
+    }
+
+
+    .gallery-head h4 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .gallery-head h6 {
+        text-align: center;
+    }
+    
+
+}
